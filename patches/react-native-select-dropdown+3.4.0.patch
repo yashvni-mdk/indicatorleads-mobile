@@ -1,0 +1,27 @@
+diff --git a/node_modules/react-native-select-dropdown/src/SelectDropdown.js b/node_modules/react-native-select-dropdown/src/SelectDropdown.js
+index 18f66b0..bb62259 100644
+--- a/node_modules/react-native-select-dropdown/src/SelectDropdown.js
++++ b/node_modules/react-native-select-dropdown/src/SelectDropdown.js
+@@ -220,7 +220,7 @@ const SelectDropdown = (
+             ? buttonTextAfterSelection
+               ? buttonTextAfterSelection(selectedItem, selectedIndex)
+               : selectedItem.toString()
+-            : defaultButtonText || 'Select an option.'}
++            : defaultButtonText || 'Select coin'}
+         </Text>
+       )}
+     </TouchableOpacity>
+diff --git a/node_modules/react-native-select-dropdown/src/components/DropdownOverlay.js b/node_modules/react-native-select-dropdown/src/components/DropdownOverlay.js
+index f5335dc..d71d8c6 100644
+--- a/node_modules/react-native-select-dropdown/src/components/DropdownOverlay.js
++++ b/node_modules/react-native-select-dropdown/src/components/DropdownOverlay.js
+@@ -11,9 +11,6 @@ const DropdownOverlay = ({onPress, backgroundColor}) => {
+       onPress={onPress}
+       style={{
+         ...styles.dropdownOverlay,
+-        ...{
+-          backgroundColor: defaults.backgroundColor,
+-        },
+       }}
+     />
+   );

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "526738868017",
+    "project_id": "marketchat-8e0a9",
+    "storage_bucket": "marketchat-8e0a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526738868017:android:f9f8339f850be7b7eed210",
+        "android_client_info": {
+          "package_name": "com.indicatorleads"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq3CTa-_8r6Hq6kFWukP8qrI4RHtynHQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526738868017:android:11c489c06afecdd3eed210",
+        "android_client_info": {
+          "package_name": "com.marketchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq3CTa-_8r6Hq6kFWukP8qrI4RHtynHQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
